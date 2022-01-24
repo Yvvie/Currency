@@ -1,0 +1,184 @@
+.mainContainer {
+  position: absolute;
+  border-radius: 53px;
+  transform: rotate(-3deg);
+  overflow: hidden;
+  height: 900px;
+  max-width: 100%;
+  left: 10%;
+  right: -15vw;
+  top: -5px;
+  background: #5022ed;
+}
+
+.textItems {
+  position: absolute;
+  width: 425px;
+  height: 198px;
+  left: 15%;
+  top: 248px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 110%;
+  transform: rotate(3deg);
+  color: white;
+}
+
+.textColor{
+  color: #16DFB5;
+}
+
+.paragrathText {
+  position: absolute;
+  width: 425px;
+  height: 188px;
+  left: 15%;
+  top: 486px;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  transform: rotate(3deg);
+  color: #ffffff;
+}
+
+.convertBack {
+  position: absolute;
+  width: 366px;
+  height: 510.56px;
+  left: 55%;
+  top: 221.93px;
+  background: #e9f6ff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transform: rotate(-5.53deg);
+}
+
+.convert {
+  position: absolute;
+  width: 365px;
+  height: 528px;
+  left: 57.7%;
+  top: 240px;
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 20px;
+  transform: rotate(3deg);
+}
+
+.section1,
+.section2,
+.banks {
+  position: absolute;
+  width: 70%;
+  height: 48px;
+  left: 50px;
+  background: #ffffff;
+  border: 1px solid #6d6a6a;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.section1 {
+  top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.section2 {
+  top: 180px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 8px;
+}
+
+input, select, option{
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.banks {
+  top: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+
+}
+
+
+
+.paymentMethod {
+  position: absolute;
+  width: 114px;
+  height: 23px;
+  left: 50px;
+  top: 300px;
+
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.buyButton {
+  position: absolute;
+  width: 90%;
+  height: 48px;
+  left: 25px;
+  top: 400px;
+  margin-top: 20px;
+  cursor: pointer;
+  background: #b5b5b5;
+  border: 1px solid #b5b5b5;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.043);
+  border-radius: 5px 50px 50px 20px;
+}
+
+.link{
+  margin-top: 20px; 
+  text-decoration: none;
+  cursor: pointer;
+  color: #16DFB5;
+}
+
+@media (max-width: 1200px){
+    .mainContainer {
+        height: 1200px;
+      }    
+
+    .textItems {
+        width: 425px;
+        height: 198px;
+        left: 15%;
+        top: 148px;     
+      }  
+
+      .paragrathText {
+        width: 425px;
+        height: 188px;
+        left: 15%;
+        top: 940px;
+      }    
+
+      .convertBack {
+        width: 365px;
+        height: 510.56px;
+        left: 15%;
+        top: 341.93px;      
+      }
+      
+      .convert {
+        width: 370px;
+        height: 528px;
+        left: 17.7%;
+        top: 350px;    
+      }
+      
+}
